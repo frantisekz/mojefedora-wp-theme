@@ -1,0 +1,32 @@
+.post-container {
+  position: inherit;
+  left: auto;
+  top: auto;
+  width: 100%;
+}
+
+.featured-media {
+  width: 50%;
+  float: left;
+}
+
+.post-header {
+  width: 50%;
+  float: right;
+}
+
+.post-excerpt {
+  padding-left: 55%;
+}
+
+.posts {
+  height: auto;
+}
+
+.content {
+  height: auto;
+}
+
+.more-link{
+  display: none !important;
+}

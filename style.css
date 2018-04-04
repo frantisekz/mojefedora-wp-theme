@@ -1,0 +1,323 @@
+/*
+Theme Name: Mojefedora.cz
+Theme URI: http://mojefedora.cz
+Template: fedoramagazine
+Author: František Zatloukal
+Author URI: http://frantisek.zatloukalu.eu
+Version: 0.0.3
+Text Domain: baskerville
+*/
+
+@charset "UTF-8";
+
+.header-inner {
+	background: none;
+	height: 100px;
+}
+
+.header-right {
+	float: right;
+}
+
+.header-img {
+	float: left;
+	width: 300px;
+}
+
+.header-search {
+	padding-top: 30px;
+}
+
+.s {
+	background-color: #333 !important;
+}
+
+.socialbuttons {
+	font-size: 2em;
+	width: unset;
+	padding-right: 0.5em;
+	color: white;
+}
+
+.socialbuttons:hover {
+	color: #3c6eb4;
+}
+
+.cover {
+	background-image: url("images/fedora.jpg") !important;
+}
+
+.wrapper .searchform .s, .footer .searchform .s {
+	padding: 10px 55px 10px 20px;
+}
+
+.main-menu > li > a {
+	color: white !important;
+	text-transform: none;
+}
+
+.main-menu > li > a:hover {
+	background-color: #192846;
+}
+
+.main-menu > li::before {
+	content: none;
+}
+
+.current-menu-item a {
+	color: 	#2e70ae !important;
+	background-color: #192846;
+}
+
+.switchers {
+	width: 1415px;
+	margin: auto;
+	position: absolute;
+	top: 15px;
+}
+
+@media (max-width: 1559px) {
+    .switchers {
+        max-width: 91%;
+    }
+}
+
+@media (max-width: 1119px) {
+    .switchers {
+				top: 5px;
+    }
+}
+
+.switchers i {
+	font-family: FontAwesome !important;
+	float: right;
+	font-size: 20px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.author {
+	font-size: 11px !important;
+}
+
+.post-date {
+	font-size: 11px !important;
+}
+
+.post-comments {
+	font-size: 11px !important;
+}
+
+.sidebar {
+	display: block;
+}
+
+.front-sidebar {
+	position: fixed;
+	right: 0px;
+	top: 199px;
+	z-index: 999;
+}
+
+*/.sidebar .widget {
+	padding: 0px;
+}*/
+
+.sidebar .widget-content {
+	padding-right: 1em;
+}
+
+.arrow {
+	border-radius: 6px;
+	width: 50px;
+	height: 150px;
+	background-color: #192846;
+	font-size: 30px;
+	position: relative;
+	padding-top: 85px;
+	cursor:pointer;
+}
+
+.arrow a {
+	color: white;
+}
+
+#enlrg {
+	transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	display: inherit;
+}
+
+#ensml {
+	transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+}
+
+.front-sidebar > .sidebar {
+	position: fixed;
+	right: -27%;
+	top: 199px;
+	overflow: scroll;
+	height: 75%;
+}
+
+.eventswidget > .title {
+	font-size: 18px;
+}
+
+.eventswidget > .title a{
+	color: black;
+}
+
+.eventswidget > ul {
+	border-bottom: 1px solid grey;
+}
+
+.eventswidget img {
+	display: none;
+}
+
+.eventswidget .title {
+	margin-top: 0.5em;
+}
+
+li.booked {
+	display: none;
+}
+
+.credits-inner {
+	text-align: right;
+}
+
+.widget-content ul li::before {
+	content: none;
+}
+
+#ensml {
+	display: none;
+}
+
+.featured-media img {
+	width: 100%;
+}
+
+.posts .post .featured-media {
+	background-image: url("images/fedora.jpg");
+}
+
+.post-content blockquote p {
+	text-align: left;
+}
+
+.credits p {
+	float: right;
+	width: auto;
+	padding-left: 10px;
+}
+
+.footer a {
+	color: white;
+}
+
+.footer a:hover {
+	color: grey;
+}
+
+.logos {
+	float: left;
+	font-size: 50px;
+}
+
+.logos a {
+	margin-right: 10px;
+}
+
+.logos a:hover {
+	color: #294172;
+}
+
+.logos img{
+	padding-right: 15px;
+}
+
+ul.main-menu > li {
+	font-size: 150%;
+}
+
+pre {
+	background: #282b2e !important;
+	font-family: monospace !important;
+	font-size: 1.0em !important;
+}
+
+pre *{
+	font-family: monospace !important;
+}
+
+.hljs {
+	font-size: 120% !important;
+}
+
+code {
+	background: none;
+	font-size: 1em;
+}
+
+.comment-actions a {
+	margin-right: 10px;
+}
+
+@media only screen and (min-height: 1500px) {
+	div.front-sidebar > div.sidebar {
+		height: 1200px;
+	}
+}
+
+@media only screen and (min-width: 2560px) {
+	div.front-sidebar > div.sidebar {
+		right: 0%;
+	}
+	.sidebar {
+		margin-right: 1%;
+		right: 0%;
+	}
+	.arrow {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 2559px) {
+	.arrow {
+		display: inherit;
+	}
+}
+
+@media only screen and (min-width: 1921px) {
+	div.front-sidebar > div.sidebar {
+		width: 15%;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	.head-imgs {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 1279px) {
+	#head-img-ext {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 1439px) {
+	#head-img-ext-plus {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.socialbuttons {
+		display: none;
+	}
+}
