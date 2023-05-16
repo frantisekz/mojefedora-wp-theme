@@ -24,5 +24,14 @@ function front_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'front_scripts' );
 
+//Remove Gutenberg Block Library CSS from loading on the frontend
+function smartwp_remove_wp_block_library_css(){
+ wp_dequeue_style( 'wp-block-library' );
+ wp_dequeue_style( 'wp-block-library-theme' );
+} 
+add_action( 'wp_enqueue_scripts', 'smartwp_remove_wp_block_library_css', 100 );
 
-wp_enqueue_style( 'awesome', get_stylesheet_directory_uri() . '/css/font-awesome.min.css' );
+wp_enqueue_style( 'awesome', get_stylesheet_directory_uri() . '/css/awesome.min.css' );
+wp_enqueue_style( 'awesome-v4-shims', get_stylesheet_directory_uri() . '/css/v4-shims.css' );
+
+remove_filter( 'the_content', 'wptexturize' );

@@ -8,8 +8,6 @@ Version: 0.0.3
 Text Domain: baskerville
 */
 
-@charset "UTF-8";
-
 .header-inner {
 	background: none;
 	height: 100px;
@@ -43,12 +41,12 @@ Text Domain: baskerville
 	color: #3c6eb4;
 }
 
-.cover {
-	background-image: url("images/fedora.jpg") !important;
-}
-
 .wrapper .searchform .s, .footer .searchform .s {
 	padding: 10px 55px 10px 20px;
+}
+
+.media-caption {
+	display: none;
 }
 
 .main-menu > li > a {
@@ -66,7 +64,7 @@ Text Domain: baskerville
 
 .current-menu-item a {
 	color: 	#2e70ae !important;
-	background-color: #192846;
+	background-color: #262626;
 }
 
 .switchers {
@@ -89,7 +87,6 @@ Text Domain: baskerville
 }
 
 .switchers i {
-	font-family: FontAwesome !important;
 	float: right;
 	font-size: 20px;
 	padding: 10px;
@@ -119,7 +116,7 @@ Text Domain: baskerville
 	z-index: 999;
 }
 
-*/.sidebar .widget {
+/*.sidebar .widget {
 	padding: 0px;
 }*/
 
@@ -131,7 +128,7 @@ Text Domain: baskerville
 	border-radius: 6px;
 	width: 50px;
 	height: 150px;
-	background-color: #192846;
+	background-color: #262626;
 	font-size: 30px;
 	position: relative;
 	padding-top: 85px;
@@ -201,6 +198,14 @@ li.booked {
 	width: 100%;
 }
 
+.navigation {
+	background-color: #51a2da;
+}
+
+.cover {
+	background-color: #262626 !important;
+}
+
 .posts .post .featured-media {
 	background-image: url("images/fedora.jpg");
 }
@@ -265,6 +270,10 @@ code {
 
 .comment-actions a {
 	margin-right: 10px;
+}
+
+.slb_data_title {
+	font-family: arial !important;
 }
 
 @media only screen and (min-height: 1500px) {
