@@ -12,9 +12,8 @@
 		<?php if ( is_singular() ) wp_enqueue_script( "comment-reply" ); ?>
 
 		<?php wp_head(); ?>
-		<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<?php $post_pre_loop = $wp_query->post;
-		if (!is_front_page()) {
+		if (!is_front_page() && isset($post_pre_loop)) {
 			echo '<meta property="og:image" content="' . get_the_post_thumbnail_url($post_pre_loop->ID,'post-image') . '" />';
 		}
 		?>
@@ -39,7 +38,7 @@
 
 			<div class="header-inner section-inner">
 				<div class="header-img">
-					<a href="<?php echo get_site_url(); ?>"><img width="200px" src="<?php echo get_site_url(); ?>/wp-content/themes/mojefedoracz/images/mojefedora.png"></a>
+					<a href="<?php echo get_site_url(); ?>"><img width="200px" height="88px" src="<?php echo get_site_url(); ?>/wp-content/themes/mojefedoracz/images/fedora-logo.svg"></a>
 				</div>
 				<div class="header-right">
                     <a class="socialbuttons facebook" href="http://www.facebook.com/fedoracz">
@@ -48,8 +47,8 @@
                     <a class="socialbuttons twitter" href="http://twitter.com/fedoracz">
                         <i class="fa fa-fw fa-twitter" aria-hidden="true"></i>
                     </a>
-                    <a class="socialbuttons google" href="https://plus.google.com/110833706720326361343">
-                        <i class="fa fa-fw fa-google-plus" aria-hidden="true"></i>
+                    <a class="socialbuttons google" href="https://floss.social/@fedoracz">
+                        <i class="fab fa-fw fa-mastodon" aria-hidden="true"></i>
                     </a>
                     <a class="socialbuttons rss" href="feed/">
                             <i class="fa fa-fw fa-rss" aria-hidden="true"></i>
