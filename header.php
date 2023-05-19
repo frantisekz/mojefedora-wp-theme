@@ -41,10 +41,10 @@
 					<a href="<?php echo get_site_url(); ?>"><img width="200px" height="88px" src="<?php echo get_site_url(); ?>/wp-content/themes/mojefedoracz/images/fedora-logo.svg"></a>
 				</div>
 				<div class="header-right">
-                    <a class="socialbuttons facebook" href="http://www.facebook.com/fedoracz">
+                    <a class="socialbuttons facebook" href="https://www.facebook.com/fedoracz">
 					    <i class="fa fa-fw fa-facebook" aria-hidden="true"></i>
                     </a>
-                    <a class="socialbuttons twitter" href="http://twitter.com/fedoracz">
+                    <a class="socialbuttons twitter" href="https://twitter.com/fedoracz">
                         <i class="fa fa-fw fa-twitter" aria-hidden="true"></i>
                     </a>
                     <a class="socialbuttons google" href="https://floss.social/@fedoracz">
