@@ -119,7 +119,7 @@
 <div class="credits section bg-dark small-padding">
 	<div class="credits-inner section-inner">
 <div class="logos">
-	<a target="_blank" href="https://floss.social/@fedoracz" rel="publisher"><i class="fab fa-mastodon" aria-hidden="true"></i></a>
+	<a target="_blank" href="https://floss.social/@fedoracz" rel="me"><i class="fab fa-mastodon" aria-hidden="true"></i></a>
 	<a target="_blank" href="https://www.facebook.com/fedoracz"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 	<a target="_blank" href="https://twitter.com/fedoracz"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 	<a target="_blank" href="https://t.me/mojefedora"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
