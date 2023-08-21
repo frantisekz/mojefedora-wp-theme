@@ -123,7 +123,6 @@
 	<a target="_blank" href="https://www.facebook.com/fedoracz"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 	<a target="_blank" href="https://twitter.com/fedoracz"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 	<a target="_blank" href="https://t.me/mojefedora"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
-	<a target="_blank" href="https://www.youtube.com/channel/UCLCwHfGfcbDfs9E8lldJPQw"><i class="fa fa-youtube" aria-hidden="true"></i></a>
 	<a href="/feed/"><i class="fa fa-rss" aria-hidden="true"></i></a>
 	<a target="_blank" href="https://stats.uptimerobot.com/YWywDcDP4" style="border-left: 1px solid #ccc; padding-left: 20px;"><i class="fa fa-heartbeat" aria-hidden="true"></i></a>
 </div>
