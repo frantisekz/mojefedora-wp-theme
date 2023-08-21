@@ -41,18 +41,18 @@
 					<a href="<?php echo get_site_url(); ?>"><img width="200px" height="88px" src="<?php echo get_site_url(); ?>/wp-content/themes/mojefedoracz/images/fedora-logo.svg"></a>
 				</div>
 				<div class="header-right">
-                    <a class="socialbuttons facebook" href="http://www.facebook.com/fedoracz">
-					    <i class="fa fa-fw fa-facebook" aria-hidden="true"></i>
-                    </a>
-                    <a class="socialbuttons twitter" href="http://twitter.com/fedoracz">
-                        <i class="fa fa-fw fa-twitter" aria-hidden="true"></i>
-                    </a>
-                    <a class="socialbuttons google" href="https://floss.social/@fedoracz">
-                        <i class="fab fa-fw fa-mastodon" aria-hidden="true"></i>
-                    </a>
-                    <a class="socialbuttons rss" href="feed/">
-                            <i class="fa fa-fw fa-rss" aria-hidden="true"></i>
-                    </a>
+          <a target="_blank" href="https://www.facebook.com/fedoracz" class="socialbuttons">
+					  <i class="fa fa-fw fa-facebook" aria-hidden="true"></i>
+          </a>
+          <a target="_blank" href="https://twitter.com/fedoracz" class="socialbuttons">
+            <i class="fa fa-fw fa-twitter" aria-hidden="true"></i>
+          </a>
+          <a target="_blank" href="https://floss.social/@fedoracz" class="socialbuttons">
+            <i class="fab fa-fw fa-mastodon" aria-hidden="true"></i>
+          </a>
+          <a target="_blank" href="/feed/" class="socialbuttons">
+            <i class="fa fa-fw fa-rss" aria-hidden="true"></i>
+          </a>
 
 					<div class="header-search wrapper">
 						<form method="get" class="searchform" action="<?php echo esc_url( home_url( '/' ) ); ?>">

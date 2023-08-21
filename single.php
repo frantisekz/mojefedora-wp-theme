@@ -208,7 +208,7 @@
 
 									if (!empty($author_twitter)) : ?>
 
-										<a class="author-link-twitter" title="<?php echo '@' . $author_twitter . ' '; ?><?php _e('on Twitter','baskerville'); ?>" href="http://www.twitter.com/<?php echo $author_twitter ?>"><?php echo '@' . $author_twitter . ' '; ?><?php _e('on Twitter','baskerville'); ?></a>
+										<a class="author-link-twitter" title="<?php echo '@' . $author_twitter . ' '; ?><?php _e('on Twitter','baskerville'); ?>" href="https://www.twitter.com/<?php echo $author_twitter ?>"><?php echo '@' . $author_twitter . ' '; ?><?php _e('on Twitter','baskerville'); ?></a>
 
 									<?php endif; ?>
 
