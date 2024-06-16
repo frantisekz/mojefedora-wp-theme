@@ -119,17 +119,16 @@
 <div class="credits section bg-dark small-padding">
 	<div class="credits-inner section-inner">
 <div class="logos">
-	<a href="https://floss.social/@fedoracz" rel="publisher"><i class="fab fa-mastodon" aria-hidden="true"></i></a>
-	<a href="http://www.facebook.com/fedoracz"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-	<a href="http://twitter.com/fedoracz"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-	<a href="https://t.me/mojefedora"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
-	<a href="https://www.youtube.com/channel/UCLCwHfGfcbDfs9E8lldJPQw"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+	<a target="_blank" href="https://floss.social/@fedoracz" rel="me"><i class="fab fa-mastodon" aria-hidden="true"></i></a>
+	<a target="_blank" href="https://www.facebook.com/fedoracz"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+	<a target="_blank" href="https://twitter.com/fedoracz"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+	<a target="_blank" href="https://t.me/mojefedora"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
 	<a href="/feed/"><i class="fa fa-rss" aria-hidden="true"></i></a>
-	<a href="https://stats.uptimerobot.com/YWywDcDP4" target="_blank" style="border-left: 1px solid #ccc; padding-left: 20px;"><i class="fa fa-heartbeat" aria-hidden="true"></i></a>
+	<a target="_blank" href="https://stats.uptimerobot.com/YWywDcDP4" style="border-left: 1px solid #ccc; padding-left: 20px;"><i class="fa fa-heartbeat" aria-hidden="true"></i></a>
 </div>
 <img width="120px" height="53px" src="<?php echo get_site_url(); ?>/wp-content/themes/mojefedoracz/images/fedora-logo.svg">
 		<p class="credits-left">
-    This site is not affiliated with or endorsed by the <a href="http://fedoraproject.org/">Fedora Project</a>.<br/>
+    This site is not affiliated with or endorsed by the <a href="https://fedoraproject.org/">Fedora Project</a>.<br/>
     Kontakt: <a href="mailto:redakce@mojefedora.cz">redakce@mojefedora.cz</a> | <a href="https://mojefedora.cz/piste-pro-fedora-cz/">Pište pro mojefedora.cz</a><br/>
 Některé materiály na těchto stránkách pocházejí z webu <a href="https://fedoramagazine.org"><strong>fedoramagazine.org</strong></a></a><br/>
     <a href="<?php echo wp_login_url( get_permalink() ); ?>"><strong>Přihlásit se</strong></a><br/>
